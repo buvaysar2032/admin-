@@ -14,6 +14,7 @@ import MainJumbotron from './components/MainJumbotron.vue'
 import NotificationBell from './components/NotificationBell.vue'
 import MailPreview from './components/MailPreview.vue'
 import StatisticBlock from './components/StatisticBlock.vue';
+import OfficeMap from './components/OfficeMap.vue'
 import { AxiosKey } from './symbols'
 
 const pinia = createPinia()
@@ -37,4 +38,5 @@ app
   .component('FontAwesomeIcon', FontAwesomeIcon)
   .component('MailPreview', MailPreview)
   .component('StatisticBlock', StatisticBlock)
+  .component('OfficeMap', OfficeMap)
 app.mount('#app')
